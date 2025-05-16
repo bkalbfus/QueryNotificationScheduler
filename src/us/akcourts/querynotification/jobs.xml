@@ -1,0 +1,19 @@
+<jobs>
+<job name="test1">
+  <query>
+  	select foo, bar from dbo.scrap
+  </query>
+  <command>
+  <![CDATA[
+    cmd.exe /K echo "It Happened"
+  ]]>
+  </command>
+</job>
+
+
+
+
+
+
+
+</jobs>

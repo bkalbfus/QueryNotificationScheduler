@@ -1,0 +1,17 @@
+<list>
+  <job>
+    <name>test1</name>
+    <triggerSQL>select foo, bar from dbo.scrap where foo = 'test1'</triggerSQL>
+    <command>cmd /C &quot;echo test1 changed &quot; &gt; c:\scrap\notified.txt</command>
+  </job>
+  <job>
+    <name>test2</name>
+    <triggerSQL>select foo, bar from dbo.scrap where foo = 'test2'</triggerSQL>
+    <command>cmd /C &quot;echo test2 changed &quot; &gt; c:\scrap\notified.txt</command>
+  </job>
+  <job>
+    <name>test3</name>
+    <triggerSQL>select foo, bar from dbo.scrap where foo = 'test3'</triggerSQL>
+    <command>cmd /C &quot;echo test3 changed &quot; &gt; c:\scrap\notified.txt</command>
+  </job>
+</list>

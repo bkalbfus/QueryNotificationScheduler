@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/xstream-1.4.9.jar"/>
+	<classpathentry kind="lib" path="lib/jna.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="lib/commons-daemon-1.0.15.jar" sourcepath="lib/commons-daemon-1.0.15-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/QueryNotificationScheduler/lib/commons-daemon-1.0.15-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/biz.aQute.bndlib_3.3.0.201609221906.jar"/>
+	<classpathentry kind="con" path="aQute.bnd.classpath.container"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
