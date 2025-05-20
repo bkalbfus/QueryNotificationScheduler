@@ -1,4 +1,4 @@
-package us.akcourts.querynotification;
+package org.true_peak.querynotification;
 
 import java.io.IOException;
 import java.util.logging.Logger;
